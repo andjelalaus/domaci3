@@ -253,9 +253,9 @@ function App() {
       element={
     <Filmovi filmovi={filmovi} onAdd={addToLista} onRemove={remFromLista} searchText={searchText}/> }
     />
-     <Route path="/lista" element={<Lista listaFilm={listaFilm} onAddLike={addToListaLike} onAddDislike={addToListaDisLike} onRemove={remFromLista}/>}/>
-     <Route path="/listalike" element={<ListaLike listaLike={listaLike}/>}/>
-     <Route path="/listadislike" element={<ListaDisLike listaDisLike={listaDisLike}/>}/>
+     <Route path="/lista" element={<Lista listaFilm={listaFilm} onAddLike={addToListaLike} onAddDislike={addToListaDisLike} onRemove={remFromLista} searchText={searchText}/>}/>
+     <Route path="/listalike" element={<ListaLike listaLike={listaLike} searchText={searchText} onAddLike={addToListaLike} onAddDislike={addToListaDisLike} onRemove={remFromLista} />}/>
+     <Route path="/listadislike" element={<ListaDisLike listaDisLike={listaDisLike} searchText={searchText} onAddLike={addToListaLike} onAddDislike={addToListaDisLike} onRemove={remFromLista}/>}/>
     </Routes>
     <BottomSearchBar pretraga={pretraga} />
     </BrowserRouter>

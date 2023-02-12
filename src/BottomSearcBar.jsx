@@ -2,7 +2,7 @@ import React from 'react';
 import {ImList} from "react-icons/im"
 import { Link } from 'react-router-dom';
 import ListaDisLike from './listDislike';
-function BottomSearchBar(pretraga){
+function BottomSearchBar({pretraga}){
     return(
         <footer>
         <div className='navBar'>
