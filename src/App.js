@@ -51,7 +51,7 @@ function App() {
       year:1994,
       description:"Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
       IMDb:9.2,
-      trailer:"https://www.imdb.com/video/vi3877612057/?playlistId=tt0111161&ref_=tt_pr_ov_vi",
+      trailer:"https://www.youtube.com/watch?v=6hB3S9bIaco",
       amount:0,
       like:0,
       dislike:0
@@ -64,7 +64,7 @@ function App() {
       year:1972,
       description:"The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
       IMDb:9.2,
-      trailer:"https://www.imdb.com/video/vi1348706585/?playlistId=tt0068646&ref_=tt_pr_ov_vi",
+      trailer:"https://www.youtube.com/watch?v=UaVTIH8mujA",
       amount:0,
       like:0,
       dislike:0
@@ -77,7 +77,7 @@ function App() {
       year:2008,
       description:"When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
       IMDb:9.0,
-      trailer:"https://www.imdb.com/video/vi324468761/?playlistId=tt0468569&ref_=tt_ov_vi",
+      trailer:"https://www.youtube.com/watch?v=EXeTwQWrcwY",
       amount:0,
       like:0,
       dislike:0
@@ -90,7 +90,7 @@ function App() {
       year:1974,
       description:"The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
       IMDb:9.0,
-      trailer:"https://www.imdb.com/video/vi696162841/?playlistId=tt0071562&ref_=tt_ov_vi",
+      trailer:"https://www.youtube.com/watch?v=9O1Iy9od7-A",
       amount:0,
       like:0,
       dislike:0
@@ -103,7 +103,7 @@ function App() {
       year:1957,
       description:"The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
       IMDb:9.0,
-      trailer:"https://www.imdb.com/video/vi2924462873/?playlistId=tt0050083&ref_=tt_pr_ov_vi",
+      trailer:"https://www.youtube.com/watch?v=TEN-2uTi2c0",
       amount:0,
       like:0,
       dislike:0
@@ -116,7 +116,7 @@ function App() {
       year:2010,
       description:"A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
       IMDb:8.1,
-      trailer:"https://www.imdb.com/video/vi1158218777/?playlistId=tt0892769&ref_=tt_pr_ov_vi",
+      trailer:"https://www.youtube.com/watch?v=ZDyEERuK31Y",
       amount:0,
       like:0,
       dislike:0
@@ -129,7 +129,7 @@ function App() {
       year:2013,
       description:"Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
       IMDb:8.2,
-      trailer:"https://www.imdb.com/video/vi2312218649/?playlistId=tt0993846&ref_=tt_ov_vi",
+      trailer:"https://www.youtube.com/watch?v=iszwuX1AK6A",
       amount:0,
       like:0,
       dislike:0
@@ -142,7 +142,7 @@ function App() {
       year:2019,
       description:"A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
       IMDb:8.4,
-      trailer:"https://www.imdb.com/video/vi1723318041/?playlistId=tt7286456&ref_=tt_ov_vi",
+      trailer:"https://www.youtube.com/watch?v=zAGVQLHvwOY",
       amount:0,
       like:0,
       dislike:0
@@ -155,7 +155,7 @@ function App() {
       year:2011,
       description:"After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
       IMDb:8.5,
-      trailer:"https://www.imdb.com/video/vi59285529/?playlistId=tt1675434&ref_=tt_ov_vi",
+      trailer:"https://www.youtube.com/watch?v=oK5hMNxqsFA",
       amount:0,
       like:0,
       dislike:0
@@ -168,7 +168,7 @@ function App() {
       year:1994,
       description:"The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
       IMDb:8.8,
-      trailer:"https://www.imdb.com/video/vi3567517977/?playlistId=tt0109830&ref_=tt_ov_vi",
+      trailer:"https://www.youtube.com/watch?v=bLvqoHBptjg",
       amount:0,
       like:0,
       dislike:0
