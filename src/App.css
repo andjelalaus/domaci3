@@ -158,6 +158,13 @@
         }
         .player{
           margin-left: 200px;
-          
+
+        }
+        .total{
+          color:#fff;
+          font-size: 50px;
+          font-family: 'Courier New', Courier, monospace;
+          background-color: #f232328d;
+          text-align: center;
         }
         

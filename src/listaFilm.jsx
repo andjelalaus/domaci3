@@ -10,7 +10,7 @@ const ListaFilm = ({film,onAddLike,onAddDislike,onRemove}) => {
             <img className="card-img-left" src={film.img}/>
             <div className="card-body">
              <h3 className='card-title'>{film.title}</h3>
-             <p className='card-text'>{film.duaration}</p>
+             <h4 className='card-text'>{film.duaration}</h4>
              <p className='card-text'>{film.year}</p>
              <p className='card-text'>{film.description}</p>
              <p className='card-text'>{film.IMDb}</p>

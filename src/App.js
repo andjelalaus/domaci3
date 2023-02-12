@@ -125,7 +125,7 @@ function App() {
       id:7,
       img:"https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg",
       title:"The Wolf of Wall Street",
-      duaration:"3h",
+      duaration:"3h 1m",
       year:2013,
       description:"Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
       IMDb:8.2,
@@ -240,25 +240,45 @@ function App() {
         }
    } 
   });};
+
+  const calculateTotalTime = () => {
+    let totalMinutes = 0;
+    listaFilm.forEach(film => {
+      let filmDuration = film.duaration.split("h");
+      let hours = parseInt(filmDuration[0]);
+      let minutes = parseInt(filmDuration[1].split("m")[0]);
+      totalMinutes += hours * 60 + minutes;
+    });
+  
+    let hours = Math.floor(totalMinutes / 60);
+    let minutes = totalMinutes % 60;
+    return `${hours}h ${minutes}m`;
+  };
    
 
   return (
    
-
+    <div>
+     
     <BrowserRouter>
     <NavBar listaNum={listaNum} />
+    <p className='total'>Ukupno vreme koje ćete provesti gledajući: {calculateTotalTime()}</p>
     <Routes>
       <Route
       path="/"
       element={
+        
     <Filmovi filmovi={filmovi} onAdd={addToLista} onRemove={remFromLista} searchText={searchText}/> }
     />
+    
      <Route path="/lista" element={<Lista listaFilm={listaFilm} onAddLike={addToListaLike} onAddDislike={addToListaDisLike} onRemove={remFromLista} searchText={searchText}/>}/>
      <Route path="/listalike" element={<ListaLike listaLike={listaLike} searchText={searchText} onAddLike={addToListaLike} onAddDislike={addToListaDisLike} onRemove={remFromLista} />}/>
      <Route path="/listadislike" element={<ListaDisLike listaDisLike={listaDisLike} searchText={searchText} onAddLike={addToListaLike} onAddDislike={addToListaDisLike} onRemove={remFromLista}/>}/>
     </Routes>
     <BottomSearchBar pretraga={pretraga} />
     </BrowserRouter>
+    
+    </div>
   );
 }
 
